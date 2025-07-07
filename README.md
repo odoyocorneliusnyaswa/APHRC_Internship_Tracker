@@ -1,78 +1,73 @@
-# APHRC_Internship_Tracker
-# Internship Tracker Dashboard
+# Welcome to your Lovable project
 
-![Dashboard Preview](https://via.placeholder.com/800x400?text=APHRC+Internship+Tracker+Dashboard) *(Replace with actual screenshot)*
+## Project info
 
-A secure, role-based web application for tracking intern progress, document submissions, and feedback at [APHRC](https://www.aphrc.org). Interns can log weekly summaries, upload documents, and provide feedback, while supervisors monitor progress with admin privileges.
+**URL**: https://lovable.dev/projects/85aa7d5a-5b09-42be-b50e-21dd554cebef
 
-## Key Features
+## How can I edit this code?
 
-### User Roles & Access
-- **Interns** can:
-  - Submit weekly work summaries
-  - Upload internship documents
-  - Update their profile information
-  - Provide feedback about their experience
-- **Supervisors (Admin)** can:
-  - View all intern data
-  - Monitor submission statuses
-  - Generate reports
-  - Manage document approvals
+There are several ways of editing your application.
 
-### Core Functionalities
-- **Profile Management**:
-  - Personal details
-  - Education background
-  - Internship timeline (start/end dates)
-  - Status tracking (Ongoing/Completed/Terminated)
-- **Document Tracking**:
-  - Visual indicators for agreement/contract status
-  - Feedback form submission tracking
-  - Brown presentation link storage
-- **Weekly Logs**:
-  - Task documentation
-  - Challenges faced
-  - Skills developed
-  - Future goals
-- **Feedback System**:
-  - Anonymous/non-anonymous options
-  - Experience ratings
-  - Suggestions for improvement
+**Use Lovable**
 
-## Technology Stack
+Simply visit the [Lovable Project](https://lovable.dev/projects/85aa7d5a-5b09-42be-b50e-21dd554cebef) and start prompting.
 
-### Frontend
-- React.js (TypeScript)
-- Material-UI or Ant Design for UI components
-- Chart.js for data visualization
+Changes made via Lovable will be committed automatically to this repo.
 
-### Backend
-- Node.js with Express
-- ORM: Prisma or Sequelize
+**Use your preferred IDE**
 
-### Database
-- PostgreSQL (relational data)
-- Firebase Storage (for documents)
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### Authentication
-- OAuth 2.0 (Google/Microsoft)
-- JWT for API authorization
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### Hosting
-- Frontend: Vercel/Netlify
-- Backend: AWS Elastic Beanstalk
-- Database: AWS RDS
+Follow these steps:
 
-## Installation
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-### Prerequisites
-- Node.js v16+
-- PostgreSQL 12+
-- Yarn/NPM
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-### Setup Instructions
+# Step 3: Install the necessary dependencies.
+npm i
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-org/internship-tracker.git
-   cd internship-tracker
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/85aa7d5a-5b09-42be-b50e-21dd554cebef) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
